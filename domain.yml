@@ -1,0 +1,24 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - weather
+  - who_is_yuan
+
+responses:
+  utter_greet:
+  - text: "您好呀，有什么可以帮您？"
+
+  utter_goodbye:
+  - text: "再见！"
+
+  utter_weather:
+  - text: "天公不作美，我躺在床上睡。"
+
+  utter_who_is_yuan:
+  - text: "园园就是肉肉，这个世界上最可爱的人儿！"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - 你好
+    - 您好
+    - 哈喽
+    - 哈啰
+    - 哈喽呀
+    - 小甄小甄
+    - 小真小真
+    - 在吗
+    - 嘿
+
+- intent: goodbye
+  examples: |
+    - 再见
+    - 拜拜
+    - 白白
+    - 88
+
+- intent: weather
+  examples: |
+    - 天气怎么样
+    - 天气咋样
+    - 天气如何
+    - 今天什么天气
+
+- intent: who_is_yuan
+  examples: |
+    - 肉肉是谁
+    - 园园是谁

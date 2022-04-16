@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_is_yuan
+  - action: utter_who_is_yuan
